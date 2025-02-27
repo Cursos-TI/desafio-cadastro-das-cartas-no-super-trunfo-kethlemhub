@@ -27,7 +27,6 @@ printf("numero de populacao é: %d\n");
 printf("digite o numero de pontos turisticos: \n");
 scanf("%d", &numero_pontos_turisticos);
 printf("quantidade de pontos turisticos sao: %d\n", numero_pontos_turisticos);
-
 printf("digite a area: \n");
 scanf("%f", &area);
 printf("A area é: %f\n", area);
