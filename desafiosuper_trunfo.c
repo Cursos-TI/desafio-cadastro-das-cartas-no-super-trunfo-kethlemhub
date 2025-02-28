@@ -13,12 +13,15 @@ printf("desafio super trunfo\n");
 
 printf("digite seu estado: \n");
 scanf("%s", &estado);
+printf("o estado é: %s\n", estado);
 
 printf("digite o codigo: \n");
 scanf("%c\n", &codigo);
+printf("o codigo é: %s\n", codigo);
 
 printf("digite a cidade: \n");
 scanf("%s\n", &cidade);
+printf("sua cidade é: %s\n, cidade);
 
 printf("digite a populacao: \n");
 scanf("%d", &populacao);
@@ -50,12 +53,15 @@ printf("carta 2\n");
 
     printf("digite seu estado: \n");
     scanf("%s\n", &estado2);
+    printf("o estado é: %s\n", estado2);
 
     printf("digite o codigo: \n");
     scanf("%s\n", &codigo2);
+    printf("o codigo da carta é: %s\n", codigo2);
 
     printf("digite a cidade: \n");
     scanf("%s\n", &cidade2);
+    printf("sua cidade é: %s\n", cidade2);
 
     printf("digite o pib: \n");
     scanf("%f\n", &pib2);
