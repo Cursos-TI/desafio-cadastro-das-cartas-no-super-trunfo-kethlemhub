@@ -6,9 +6,9 @@ printf("desafio super trunfo\n");
     char estado[20] = "Acre";
     char codigo[10] = "A03";
     char cidade[30] = "RioB";
-    int populacao = 89.559;
-    int numero_pontos_turisticos = 30;
-    float area = 55.57;
+    int populacao = 89520.0;
+    int numerodepontos = 30;
+    float area = 78254.0;
     float pib = 47.655;
 
 printf("digite seu estado: \n");
@@ -16,27 +16,27 @@ scanf("%s", &estado);
 printf("o estado é: %s\n", estado);
 
 printf("digite o codigo: \n");
-scanf("%c\n", &codigo);
+scanf("%s", &codigo);
 printf("o codigo é: %s\n", codigo);
 
 printf("digite a cidade: \n");
-scanf("%s\n", &cidade);
+scanf("%s", &cidade);
 printf("sua cidade é: %s\n", cidade);
 
 printf("digite a populacao: \n");
 scanf("%d", &populacao);
-printf("numero de populacao é: %d\n", populacao);
+printf("o numero de populacao é: %d\n", populacao);
 
-printf("digite o numero de pontos turisticos: \n");
-scanf("%d", &numero_pontos_turisticos);
-printf("quantidade de pontos turisticos sao: %d\n", numero_pontos_turisticos);
+printf("digite o numero de pontos: \n");
+scanf("%d", &numerodepontos);
+printf("o numero de pontos e: %d\n" , numerodepontos);
 
 printf("digite a area: \n");
-scanf("%f", &area);
+scanf("%f\n", area);
 printf("A area é: %f\n", area);
 
 printf("digite o pib: \n");
-scanf("%f", &pib);
+scanf("%f\n", &pib);
 printf("o pib e: %f\n", pib);
 
 // exibicao das informacoes da carta 2
@@ -47,37 +47,36 @@ printf("carta 2\n");
     char codigo2[10] = "B03";
     char cidade2[30] = "Macapa";
     float pib2 = 54.555;
-    int populacao2 = 45.11;
-    int numero_pontos_turisticos2 = 30;
-    float area_em_km2 = 458.255;
+    int populacao2 = 89520.0;
+    int numerodepontos2= 30;
+    float area2 = 78254.0;
 
     printf("digite seu estado: \n");
-    scanf("%s\n", &estado2);
+    scanf("%s", &estado2);
     printf("o estado é: %s\n", estado2);
 
     printf("digite o codigo: \n");
-    scanf("%s\n", &codigo2);
+    scanf("%s", &codigo2);
     printf("o codigo da carta é: %s\n", codigo2);
 
     printf("digite a cidade: \n");
-    scanf("%s\n", &cidade2);
+    scanf("%s", &cidade2);
     printf("sua cidade é: %s\n", cidade2);
 
     printf("digite o pib: \n");
-    scanf("%f\n", &pib2);
+    scanf("%f", &pib2);
     printf("o pib é: %f\n", pib2);
 
     printf("digite a populacao: \n");
-    scanf("%d\n", &populacao2);
+    scanf("%d", &populacao2);
     printf("numero de populacao é: %d\n", populacao);
 
-    printf("digite o numero de pontos turisticos: \n");
-    scanf("%d\n", &numero_pontos_turisticos2);
-    printf("quantidade de pontos turisticos sao: %d\n", numero_pontos_turisticos2);
+    printf("digite o numero de pontos: \n");
+    scanf("%d", &numerodepontos2);
+    printf("o numero de pontos e: %d\n", numerodepontos2);
 
     printf("digite a area: \n");
-    scanf("%f\n", &area_em_km2);
-    printf("A area em km2 é: %f\n", area_em_km2);
+    scanf("%f\n", &area2);
 
     
 }
