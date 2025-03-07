@@ -69,7 +69,7 @@ printf("carta 2\n");
 
     printf("digite a populacao: \n");
     scanf("%d", &populacao2);
-    printf("numero de populacao é: %d\n", populacao);
+    printf("numero de populacao é: %d\n", populacao2);
 
     printf("digite o numero de pontos: \n");
     scanf("%d", &numerodepontos2);
@@ -77,7 +77,7 @@ printf("carta 2\n");
 
     printf("digite a area: \n");
     scanf("%f\n", &area2);
-    printf("a area e: %f\n", area);
+    printf("a area e: %f\n", area2);
 
     return 0;
 
