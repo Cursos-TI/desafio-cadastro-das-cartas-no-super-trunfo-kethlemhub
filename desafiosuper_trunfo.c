@@ -1,84 +1,100 @@
 #include <stdio.h>
 
 int main(){
-printf("desafio super trunfo\n");
 
-    char estado[20] = "Acre";
-    char codigo[10] = "A03";
-    char cidade[30] = "RioB";
-    int populacao = 89520.0;
-    int numerodepontos = 30;
-    float area = 78254.0;
-    float pib = 47.655;
+    printf("desafio super trunfo\n");
+
+    // Declaracoes de variaveis para armazenas os dados das cartas + informacoes da carta 1
+    char carta1[20] = "1";
+    char Estado1[20] = "Acre";
+    char Codigo1[10] = "A03";
+    char Cidade1[30] = "Jordao";
+    int Populacao1 = 380597;
+    float Area1 = 519.8;
+    float PIB1 = 20.5;
+    int Pontos1 = 30;
+
+printf("digite a carta: \n");
+scanf("%s", &carta1);
 
 printf("digite seu estado: \n");
-scanf("%s", &estado);
-printf("o estado é: %s\n", estado);
+scanf("%s", &Estado1);
 
 printf("digite o codigo: \n");
-scanf("%s", &codigo);
-printf("o codigo é: %s\n", codigo);
+scanf("%s", &Codigo1);
 
 printf("digite a cidade: \n");
-scanf("%s", &cidade);
-printf("sua cidade é: %s\n", cidade);
+scanf("%s", &Cidade1);
 
 printf("digite a populacao: \n");
-scanf("%d", &populacao);
-printf("o numero de populacao é: %d\n", populacao);
-
-printf("digite o numero de pontos: \n");
-scanf("%d", &numerodepontos);
-printf("o numero de pontos e: %d\n", numerodepontos);
+scanf("%d", &Populacao1);
 
 printf("digite a area: \n");
-scanf("%f\n", area);
-printf("A area é: %f\n", area);
+scanf("%f", &Area1);
 
-printf("digite o pib: \n");
-scanf("%f", &pib);
-printf("o pib e: %f\n", pib);
+printf("digite o PIB: \n");
+scanf("%f", &PIB1);
+
+printf("digite os pontos turisticos: \n");
+scanf("%d", &Pontos1);
 
 // exibicao das informacoes da carta 2
 
 printf("carta 2\n");
     
-    char estado2[20] = "Amapa";
-    char codigo2[10] = "B03";
-    char cidade2[30] = "Macapa";
-    float pib2 = 54.555;
-    int populacao2 = 89520.0;
-    int numerodepontos2= 30;
-    float area2 = 78254.0;
+    char Carta2[20] = "2";
+    char Estado2[20] = "Amapa";
+    char Codigo2[10] = "B03";
+    char Cidade2[30] = "Macapa";
+    int Populacao2 = 985365;
+    float Area2 = 241.6;
+    float PIB2 = 27.5;
+    int Pontos2 = 30;
+
+    printf("digite a carta: \n");
+    scanf("%s", &Carta2);
 
     printf("digite seu estado: \n");
-    scanf("%s", &estado2);
-    printf("o estado é: %s\n", estado2);
+    scanf("%s", &Estado2);
 
     printf("digite o codigo: \n");
-    scanf("%s", &codigo2);
-    printf("o codigo da carta é: %s\n", codigo2);
-
+    scanf("%s", &Codigo2);
+    
     printf("digite a cidade: \n");
-    scanf("%s", &cidade2);
-    printf("sua cidade é: %s\n", cidade2);
-
-    printf("digite o pib: \n");
-    scanf("%f", &pib2);
-    printf("o pib é: %f\n", pib2);
-
+    scanf("%s", &Cidade2);
+    
     printf("digite a populacao: \n");
-    scanf("%d", &populacao2);
-    printf("numero de populacao é: %d\n", populacao2);
-
-    printf("digite o numero de pontos: \n");
-    scanf("%d", &numerodepontos2);
-    printf("o numero de pontos e: %d\n", numerodepontos2);
+    scanf("%d", &Populacao2);
 
     printf("digite a area: \n");
-    scanf("%f\n", &area2);
-    printf("a area e: %f\n", area2);
+    scanf("%f", &Area2);
+
+    printf("digite o PIB: \n");
+    scanf("%f", &PIB2);
+
+    printf("digite os pontos turisticos: \n");
+    scanf("%d\n", &Pontos2);
+
+    printf("\nCarta: %s\n", carta1);
+    printf("Estado: %s\n", Estado1);
+    printf("Codigo da carta: %s\n", Codigo1);
+    printf("Nome da cidade: %s\n", Cidade1);
+    printf("Populacao da cidade: %d\n", Populacao1);
+    printf("Area da cidade: %f km²\n", Area1);
+    printf("PIB da cidade: %f bilhoes de reais\n", PIB1);
+    printf("Pontos turisticos: %d\n", Pontos1);
+
+    printf("\nCarta: %s\n", Carta2);
+    printf("Estado: %s\n", Estado2);
+    printf("Codigo da carta: %s\n", Codigo2);
+    printf("Nome da cidade: %s\n", Cidade2);
+    printf("Populacao da cidade: %d\n", Populacao2);
+    printf("Area da cidade: %f km²\n", Area2);
+    printf("PIB da cidade: %f bilhoes de reais\n", PIB2);
+    printf("Pontos turisticos: %d\n", Pontos2);
 
     return 0;
 
 }
+
+
